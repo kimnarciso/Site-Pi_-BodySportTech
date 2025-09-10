@@ -79,41 +79,20 @@ body {
     visibility: visible;
 }
 .topo {
-    font-size: 3rem;
-    padding: 10vw 2vw;
+    font-size: 4rem;
+    padding: 30vw 60vw 2vw 3vw;
     color: #ecf1ee;
-    background: url(../imagem/IMG_9988.PNG);
+    background: url(../imagem/image\ 87.png);
     background-position: center;
     width: auto;
     transition: all 0.5s ease;
+    font-family: "Hammersmith One", sans-serif;
+    text-align: center;
 }
 .topo.ativo {
     margin-left: 300px;
     background-color: transparent;
 }
-.esportes {
+.body {
     margin: 3vw 6vw;
-}
-.esportes ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.esportes ul li {
-    text-align: center;
-    padding-right: 6vw;
-}
-.esportes ul li:last-child {
-    padding-left: 0;
-}
-.esportes ul li img {
-    padding: 10px;
-    border-radius: 30px;
-    width: 60%;
-    height: 70%;
-    background-color: #8EAB8E;
-}
-.esportes ul li img.ciclista {
-    width: ;
-    padding: 10px;
 }
