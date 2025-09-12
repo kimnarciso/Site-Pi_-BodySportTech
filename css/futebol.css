@@ -185,13 +185,37 @@ section.img div  {
 section.img div img {
     width: 20%;
 }
-
-
+.alimentacao h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #02210C;
+    background: #C1D9C3;
+    margin: 3vw 30vw 1vw ;
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+.alimentacao ul {
+    text-align: center;
+    margin: 3vw 26vw;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #D3E6D3;
+    
+}
+.alimentacao ul li p span {
+    color: #02210C;
+}
+.alimentacao ul li p {
+    font-size: 1.1rem;
+    text-align: left;
+    line-height: 1.5;
+    text-decoration: dashed;
+}
 footer{
     background: #D3E6D3;
     padding: 20px 20px 20px 20px ;
 }
-
 
 footer nav ul li {
     text-align: right;
