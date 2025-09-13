@@ -212,34 +212,47 @@ section.img div img {
     line-height: 1.5;
     text-decoration: dashed;
 }
-footer{
-    background: #D3E6D3;
-    padding: 20px 20px 20px 20px ;
+footer {
+    background-color: #D3E6D3;
+    padding: 4vw;
+}
+footer div.conteiner {
+    display: flex;
+    justify-content: space-between;
+}
+footer div.conteiner div.redes h4 {
+    font-weight: bold;
+    font-size: 1.4rem;
+    padding-bottom: 20px;
+}
+footer div.conteiner div.redes p {
+    color: #4e4e4e;
+    font-size: 1rem;
+}
+footer div.conteiner div.redes nav p {
+    color: #000;
+    font-size: 1.8rem;
+    padding: 20px 10px;
+}
+footer div.conteiner div.redes nav p a {
+    padding-right: 15px;
 }
 
-footer nav ul li {
-    text-align: right;
-}
-footer nav ul li span {
-    font-weight: bold;
-}
-footer h2 {
+footer div.conteiner div.esporte nav ul li h4 {
     font-weight: bold;
     font-size: 1.2rem;
-    padding: 8px 8px 8px 8px;
+    padding-bottom: 15px;
 }
-footer div.texto  p {
-    padding: 8px;    
+footer div.conteiner div.esporte nav ul li a {
+    color: #4e4e4e;
+    font-size: 1rem;
 }
-footer div.contato p {
-  text-align: center;
-  
+footer div.contato {
+    text-align: center;
 }
-footer nav p span{
-    padding: 4px;
-    font-size: 1.5rem;
-}
-footer div.contato p span {
-    font-weight: bold;
+footer div.contato {
+    color: #6d6d6d;
+    font-size: 0.8rem;
+    line-height: 22px;
 }
 
