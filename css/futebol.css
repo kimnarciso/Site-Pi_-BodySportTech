@@ -1,0 +1,245 @@
+:root {
+    --primary-color: #6ea76e;
+    --secondary-color: #265e26ce;
+    --text-color: #a3a3a3;
+    --text-secondary-color: #001100;
+    --background-color: #013612;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ecf1ee;
+    transition: background-color 0.5s ease;
+}
+.menu-lateral {
+    position: fixed;
+    left: -300px;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background-color: var(--background-color);
+    z-index: 5;
+    box-shadow: 0 0 20px rgba( 0, 0, 0, 0.1);
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+.menu-lateral.ativo {
+    left: 0;
+}
+.menu-lateral ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 60px;
+}
+.menu-lateral ul li {
+    padding: 15px 30px;
+}
+.menu-lateral ul li a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.menu-lateral ul li:hover {
+    background-color: var(--secondary-color);
+}
+.toggle {
+    background-color: var(--primary-color);
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 6;
+    border-radius: 50px;
+    font-size: 24px;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: #ecf1ee;
+    transition: all 0.5s ease-in-out;
+}
+.toggle:hover {
+    background-color: var(--secondary-color);
+}
+.toggle.ativo {
+    left: 320px;
+}
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba( 0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 4;
+}
+.background.ativo {
+    opacity: 1;
+    visibility: visible;
+}
+
+section.banner {
+  position: relative;
+}
+
+section.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+section.banner h1 {
+  position: absolute;
+  bottom: 200px;  
+  left: 100px;     
+  color: white;
+  font-weight: bold;
+  margin: 0;
+  font-size: 3.5rem;
+ 
+}
+
+section.banner {
+    background: url(../imagem/image\ 101.png);
+    background-size: cover;
+     background-position: center; 
+  align-items: center;      
+  justify-content: center;  
+  
+}
+
+section.meio p {
+    text-align: center;
+    margin: 2vw  15vw 2vw 15vw;
+    font-size: 1.1rem;
+    
+    
+}
+section.meio h2 {
+    color: #013612;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 3vw 8vw;
+}
+section.meio div ul h3 {
+    text-align: center;
+    color: #02210C;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+section.meio div {
+    background-color: #D3E6D3;
+    border-radius: 50px;
+    margin: 10vw 6vw 15vw 5vw;
+    padding: 20px 20px 20px 20px;
+    
+}
+section.meio div ul li.img {
+    text-align: center;
+    padding: 20px 20px;
+}
+section.exercicios div ul {
+    display: flex;
+    margin: 15vw 10vw ;
+    
+}
+section.exercicios div ul h3 {
+    color: #02210C;
+    font-weight: bold;
+    font-size: 1.6rem;
+    margin: 3vw 8vw;
+}
+section.exercicios div ul li p {
+    color: #a3a3a3;
+   font-size: 1.1rem;
+   margin: 3vw 8vw;
+   border-left: 8px solid #C1D9C3;
+   border-radius: 10px;
+}
+section.treinos h2 {
+    color: #02210C;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration:  8px underline solid #ABD0B5;
+    padding: 30px 2px;
+}
+section.treinos div ul li {
+    text-align: center;
+    margin: 2px 3px;
+    padding: 15px 15px;
+    background: #D9D9D9;
+    border-radius: 15px;
+    margin: 3vw 4vw 2vw 3vw;
+    font-size: 1.1rem;
+    border-left: 10px solid #ABD0B5;
+    
+}
+
+section.img div  {
+    text-align: right;
+}
+section.img div img {
+    width: 20%;
+}
+.alimentacao h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #02210C;
+    background: #C1D9C3;
+    margin: 3vw 30vw 1vw ;
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+.alimentacao ul {
+    text-align: center;
+    margin: 3vw 26vw;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #D3E6D3;
+    
+}
+.alimentacao ul li p span {
+    color: #02210C;
+}
+.alimentacao ul li p {
+    font-size: 1.1rem;
+    text-align: left;
+    line-height: 1.5;
+    text-decoration: dashed;
+}
+footer{
+    background: #D3E6D3;
+    padding: 20px 20px 20px 20px ;
+}
+
+footer nav ul li {
+    text-align: right;
+}
+footer nav ul li span {
+    font-weight: bold;
+}
+footer h2 {
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 8px 8px 8px 8px;
+}
+footer div.texto  p {
+    padding: 8px;    
+}
+footer div.contato p {
+  text-align: center;
+  
+}
+footer nav p span{
+    padding: 4px;
+    font-size: 1.5rem;
+}
+footer div.contato p span {
+    font-weight: bold;
+}
+
