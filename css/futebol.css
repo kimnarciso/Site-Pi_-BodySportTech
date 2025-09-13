@@ -7,7 +7,7 @@
 }
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #ecf1ee;
+    background-color: #F8FBF8;
     transition: background-color 0.5s ease;
 }
 .menu-lateral {
@@ -111,7 +111,7 @@ section.banner {
 
 section.meio p {
     text-align: center;
-    margin: 2vw  15vw 2vw 15vw;
+    margin: 2vw  20vw 2vw 20vw;
     font-size: 1.1rem;
     
     
