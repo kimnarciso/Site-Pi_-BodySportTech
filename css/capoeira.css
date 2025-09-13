@@ -77,7 +77,6 @@ body {
 .background.ativo {
     opacity: 1;
     visibility: visible;
-<<<<<<< HEAD
 }
 .topo {
     padding: 30vw 50vw 4vw 5vw;
@@ -158,6 +157,4 @@ body {
     font-size: 1rem;
     padding: 20px;
     line-height: 1.5vw;
-=======
->>>>>>> 39b83ed7f4071a11a66a625214a025cb297be2a8
 }
