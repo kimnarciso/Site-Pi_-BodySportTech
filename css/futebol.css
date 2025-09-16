@@ -9,6 +9,12 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #F8FBF8;
     transition: background-color 0.5s ease;
+    transition: all 0.5s ease;
+}
+body.ativo {
+    margin-left: 300px;
+    background-color: transparent;
+    transition: all 0.5s ease;
 }
 .menu-lateral {
     position: fixed;
@@ -45,7 +51,7 @@ body {
 }
 .toggle {
     background-color: var(--primary-color);
-    position: absolute;
+    position: fixed;
     left: 20px;
     top: 20px;
     z-index: 6;
@@ -83,7 +89,6 @@ body {
     background-size: cover;
     background-position: top;
     width: auto;
-    transition: all 0.5s ease;
     font-family: "Hammersmith One", sans-serif;
     text-align: center;
     opacity: 90%;
@@ -92,15 +97,9 @@ body {
     url('../imagem/image\ 100.png') center;
 }
 
-
-.topo.ativo {
-    margin-left: 300px;
-    background-color: transparent;
-}
 .topo h1 {
     font-size: 5rem;
     color: #ecf1ee;
-    
 }
 
 section.meio p {
